@@ -1,6 +1,6 @@
 //Valicacoes e tratativas de campo
 
-function ValidarFormulario(){
+function validarFormulario(){
     if(document.form.nome.value == ''){
         alert("Preencher o campo obrigatório NOME");
         document.form.nome.focus();
@@ -9,7 +9,7 @@ function ValidarFormulario(){
 
     if(document.form.email.value == ''){
         alert("Preencher o campo obrigatório E-MAIL");
-        document.form.nome.focus();
+        document.form.email.focus();
         return false;
     }
     if(document.form.assunto.value == ''){
