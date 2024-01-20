@@ -1,0 +1,238 @@
+/* importacao de camadas css */
+@import url(./fonts.css);
+@import url(./mediaQuery.css);
+@import url(./variable.css);
+@import url(./menu.css);
+
+/* configuracoes iniciais */
+/* FORMATAÇÃO POR ID */
+#homePage{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: var(--fontText);
+}
+ #page{
+    padding-top: 2rem;
+    background-color: var(--corPreto);
+}
+#endPage{
+    padding: 2rem 0rem;
+    background-color: var(--corAmareloBase);
+}
+/* FORMATAÇÃO POR TAGS */
+html{
+    scroll-behavior: smooth;
+}
+li{
+    list-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+/* FORMATAÇÃO POR CLASS */
+/* Configurações do Banner Inicial */
+
+.titleBanner{
+    color: var(--corBranco);
+    
+}
+.imgBanner:hover{
+    max-width: 300px;
+    transition: .4s;
+}
+
+.nome{
+    font-size: 4.2rem;
+    cursor: default;
+}
+.icone{
+    color: var(--corAmareloBase)
+}
+
+.funcao:hover{
+    color: var(--corBranco);
+    cursor: default;
+}
+.prog{
+    color: var(--corAmareloBase);
+}
+.github{
+   width: 45px
+}
+.linkedin{
+    width: 45px;
+}
+
+/* Configurações de Quem Sou */
+.about{
+    font-family: var(--fontText);
+    color: var(--corBranco);
+    cursor: default;
+    background-color: var(--corAmareloBase);
+    padding: 2rem 1.4rem;
+
+}
+.titleAbout{
+    font-family: var(fontSubTitle);
+    color: var(--corBranco);
+    text-align: center;
+    font-size: 1.4rem;
+}
+.textAbout{
+    font-family: var(--fontText);
+    color: var(--corBranco);
+}
+
+.projects{
+    display: flex;
+    text-align: center;
+    color: var(--corBranco);
+    padding: 1rem;
+    
+}
+.boxHabil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.habil{
+    padding: 8px;
+    gap: 3rem;
+    font-size: 14px;
+    border-radius: 12px;
+    background-color: var(--corBranco);
+    color: var(--corAzulBaseEscuro);
+    cursor: default;
+
+}
+.habil:hover{
+    background-color: var(--corAzulBaseEscuro);
+    color: var(--corBranco);
+    font-weight: 500;
+    transition: .4s;
+}
+/* Configurações do Portfólio */
+
+
+.linkGithub:hover{
+    color: var(--corAmareloBase);
+    transition: .4s;
+
+}
+.linkLinkedin:hover{
+    color: var(--corAmareloBase);
+    transition: .4s;   
+}
+.cardProjects{
+    background-color: var(--corAmareloBase);
+    color: var(--corBranco);
+    border-radius: 4px;
+    cursor: default;
+    padding: 0rem 0rem 2rem 0rem;
+}
+.repGithub{
+    max-width: 40px;
+    border-radius: 4px;
+}
+.btnProjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.linkRepGithub:hover{
+    color: var(--corAmareloBase);
+    transition: .4s;
+
+}
+/* Configurações do Contato */
+.contacts{
+    font-family: var(--fontText);
+    background-color: var(--corAzulBase);
+    padding: 2rem 1.4rem 0rem 1.4rem;
+    color: var(--corBranco);
+    
+}
+.campoForm{
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+    font-family: var(--fontText);
+    font-size: 0.8rem;
+    
+}
+.campoForm:focus{
+    border: 2px solid var(--corAzulBaseEscuro);
+}
+.campoFormMsg{
+    height: 100px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+    font-family: var(--fontText); 
+    font-size: 0.8rem; 
+}
+.campoFormMsg:focus{
+    border: 2px solid var(--corAzulBaseEscuro); 
+}
+.formContacts{
+    text-align: left;
+}
+.mapsCt{
+    background-color: var(--corAmareloBase);
+    
+}
+.btn-form{
+    background-color: var(--corAmareloBase);
+    color: var(--corBranco);
+    width: 80px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.btn-form:hover{
+    background-color: var(--corAmareloBaseEscuro);
+}
+.listCt{
+    display: flex;
+    align-items: center;
+}
+.iconesCt{
+    max-width: 35px;
+    padding: 0.8rem;
+}
+.titleCt{
+    font-family: var(fontSubTitle);
+    color: var(--corBranco);
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.logotipoFooter{
+    max-width: 150px;
+    padding: 1rem;
+}
+.btnNav{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+
+}
+.btnNavTopo{
+    width: 60px;
+}

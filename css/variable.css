@@ -1,0 +1,22 @@
+@import url(./fonts.css);
+:root {
+
+    /* CORES */
+
+    --corPreto: #000000;
+    --corBranco: #ffffff;
+    --corAmareloBase: #F29F05;
+    --corAmareloBaseEscuro: #c6820b;
+    --corAzulBase: #0A5573;
+    --corAzulBaseEscuro: #023e54;
+    --corBrancoBase: #F2F2F2;
+
+
+    /* FONTES */
+
+    --fontTitle: Montserrat-Bold;
+    --fontText: Montserrat-Regular;
+    --fontBtnBanner: Montserrat-Bold;
+    --fontSubTitle: Montserrat-Medium
+
+}
